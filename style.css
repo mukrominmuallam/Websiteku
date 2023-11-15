@@ -1,0 +1,130 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background-image: url(white3.jpg);
+	background-size: cover;
+}
+
+/*Navbar*/
+.fContainer {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+
+.topnavbar {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	outline-style: solid;
+	outline-color: blue;
+}
+
+.nama {
+	float: left;
+	padding-left: 25px;
+	padding-top: 25px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: blue;
+}
+
+.namablkg {
+	float: left;
+	padding-left: 0px;
+	padding-top: 25px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bolder;
+	font-style: italic;
+	color: white;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	float: right;
+	text-align: right;
+	list-style-type: none;
+	justify-content: space-between;
+	padding-right: 0px;
+	padding-top: 0px;
+	font-size: 15px;
+	font-weight: 500;
+	color: white;
+	font-weight: 400;
+}
+
+.menu>li {
+	padding: 13px;
+}
+
+.menu>li>a {
+	color: white;
+	text-decoration: none;
+}
+
+.menu>li>a:hover {
+	color: blue;
+}
+
+.kotakbiru {
+	background-color: blue;
+	padding: 10px;
+
+}
+
+.kotakbiru:hover {
+	color: white !important;
+}
+
+/*Image*/
+
+.bgprofil {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 150px;
+	padding-left: 150px;
+	float: left;
+}
+
+.img {
+	width: 270px;
+	height: 270px;
+	border-radius: 50%;
+}
+
+/* Name and Faculty */
+.profildesk {
+	padding-left: 150px;
+	text-align: center;
+}
+
+.namasatu {
+	color: white;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+	justify-content: center;
+	font-size: 30px;
+}
+
+.institusi {
+	color: black;
+	font-size: 35px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#naro {
+	color: blue;
+}
+
+#univ {
+	color: yellow;
+	background-color: black;
+	padding: 10px;
+}
